@@ -1,0 +1,32 @@
+make a 
+make b
+get input from user for a
+get input from user for b
+if a >= 5
+    jump aTrue
+next:
+    if b < 5
+        jump bTrue
+compare:
+    sub $t2, $t0, $t1
+    beq $t2, $zero, case1
+    j case2
+
+case1:
+    sub $t3, a, b
+    #print #t3
+    j end
+
+case2:
+    mul $t3, a, b
+    #print #t3
+    j end
+aTrue:
+    $t0 = 1
+    jump next
+bTrue: 
+    $t1 = 1
+    jump compare
+
+end
+    #end program
