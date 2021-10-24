@@ -1,0 +1,18 @@
+// P1 //
+get a 
+get b
+get c
+
+see if a is bigger than b
+see if a is bigger than c
+if both yes
+	print a
+
+see if b is bigger than a
+see if b is bigger than c
+if both yes
+	print b
+
+print c
+
+// P2 // 
