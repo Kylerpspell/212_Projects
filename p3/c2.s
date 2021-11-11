@@ -1,5 +1,5 @@
 .data
-    weight: .float 150.0
+    weight: .float 10.0
     height: .float 73.0
     const: .float 703.0
     under: .float 18.5
@@ -30,6 +30,7 @@ main:
     l.s $f10, normal
     c.le.s $f8, $f10
     bc1t pNormalweight
+    
     j pOverweight
 
 
