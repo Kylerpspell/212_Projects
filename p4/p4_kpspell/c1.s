@@ -10,7 +10,7 @@ main:
     #Get A
     jal printMess
     li $v0, 5
-    syscall
+    syscall 
     move $s0, $v0
     
     #Get B
@@ -41,7 +41,7 @@ main:
     mfhi $s6 #S6 = s3 % s4
     mflo $s5 #S5 = s3 / s4 
 
-    #s7 = 3*B
+    #s7 = x
     mul $s7, $s1, 3
     add $s7, $s5, $s7
 
