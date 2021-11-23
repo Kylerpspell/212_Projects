@@ -1,0 +1,13 @@
+get a
+get b
+
+set c to zero
+set i to zero
+while i is less than a 
+	c = c + b
+	i = i + 1
+//c should be a*b
+
+convert c to fp
+print c
+
